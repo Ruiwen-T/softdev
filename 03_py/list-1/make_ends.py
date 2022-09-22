@@ -9,3 +9,7 @@ def make_ends(nums):
   arr[0] = nums[0]
   arr[1] = nums[len(nums)-1]
   return arr
+
+print(make_ends([1, 2, 3]), "→ [1, 3]")
+print(make_ends([1, 2, 3, 4]), "→ [1, 4]")
+print(make_ends([7, 4, 6, 2]), "→ [7, 2]")
