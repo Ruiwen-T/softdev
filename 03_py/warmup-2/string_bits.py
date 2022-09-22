@@ -11,3 +11,7 @@ def string_bits(str):
     answer += str[counter]
     counter += 2
   return answer
+  
+print(string_bits('Hello'), "→ 'Hlo'")
+print(string_bits('Hi'), "→ 'H'")
+print(string_bits('Heeololeo'), "→ 'Hello'")
