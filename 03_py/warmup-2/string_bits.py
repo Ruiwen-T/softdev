@@ -4,6 +4,7 @@
 #2022-09-22
 #time spent: 3.0 hrs
 
+#Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
 def string_bits(str):
   counter = 0
   answer = ""
