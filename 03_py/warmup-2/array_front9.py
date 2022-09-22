@@ -1,3 +1,9 @@
+#RUBBER DUCKS: Ivan Yeung, Jeffrey Zou, Raven (Ruiwen) Tang
+#SoftDev
+#CodingBat Exercises
+#2022-09-22
+#time spent: 3.0 hrs
+
 def array_front9(nums):
   if len(nums) < 4:
     for j in nums:
