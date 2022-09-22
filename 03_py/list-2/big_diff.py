@@ -1,3 +1,9 @@
+#RUBBER DUCKS: Ivan Yeung, Jeffrey Zou, Raven (Ruiwen) Tang
+#SoftDev
+#CodingBat Exercises
+#2022-09-22
+#time spent: 3.0 hrs
+
 def big_diff(nums):
   current_min = nums[0]
   current_max = nums[0]
