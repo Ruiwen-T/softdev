@@ -11,3 +11,7 @@ def front_back(str):
     return str[1:] + str[:1]
   else:
     return str[len(str) - 1:] + str[1:len(str) - 1] + str[0:1]
+  
+print(front_back('code'), "→ 'eodc'")
+print(front_back('a'), "→ 'a'")
+print(front_back('ab'), "→ 'ba'")
