@@ -11,3 +11,7 @@ def reverse3(nums):
     new_nums[i] = nums[len(nums)-1-i]
   new_nums[len(nums)-1] = first
   return nums
+
+print(reverse3([1, 2, 3]), "→ [3, 2, 1]")
+print(reverse3([5, 11, 9]), "→ [9, 11, 5]")
+print(reverse3([7, 0, 0]), "→ [0, 0, 7]")
