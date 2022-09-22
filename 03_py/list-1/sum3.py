@@ -4,6 +4,7 @@
 #2022-09-22
 #time spent: 3.0 hrs
 
+#Given an array of ints length 3, return the sum of all the elements.
 def sum3(nums):
   sum = 0
   for i in nums:
