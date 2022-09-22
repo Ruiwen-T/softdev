@@ -4,6 +4,7 @@
 #2022-09-22
 #time spent: 3.0 hrs
 
+#Given an array length 1 or more of ints, return the difference between the largest and smallest values in the array. Note: the built-in min(v1, v2) and max(v1, v2) functions return the smaller or larger of two values.
 def big_diff(nums):
   current_min = nums[0]
   current_max = nums[0]
