@@ -16,3 +16,7 @@ def sum2(nums):
       sum+= nums[j]
       j += 1
     return sum
+
+print(sum2([1, 2, 3]), "→ 3")
+print(sum2([1, 1]), "→ 2")
+print(sum2([1, 1, 1, 1]), "→ 2")
