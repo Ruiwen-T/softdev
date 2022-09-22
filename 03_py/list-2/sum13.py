@@ -14,3 +14,7 @@ def sum13(nums):
       total += nums[i]
       i += 1
   return total
+
+print(sum13([1, 2, 2, 1]), "→ 6")
+print(sum13([1, 1]), "→ 2")
+print(sum13([1, 2, 2, 1, 13]), "→ 6")
