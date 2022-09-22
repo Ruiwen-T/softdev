@@ -10,6 +10,6 @@ def has23(nums):
       return True
   return False
 
-has23([2, 5]) → True
-has23([4, 3]) → True
-has23([4, 5]) → False
+print(has23([2, 5]), "→ True")
+print(has23([4, 3]), "→ True")
+print(has23([4, 5]), "→ False")
