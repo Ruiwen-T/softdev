@@ -4,6 +4,7 @@
 #2022-09-22
 #time spent: 3.0 hrs
 
+#Given a string, return a new string where the first and last chars have been exchanged.
 def front_back(str):
   if len(str) == 1:
     return str
