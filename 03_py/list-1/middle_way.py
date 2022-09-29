@@ -4,6 +4,7 @@
 #2022-09-22
 #time spent: 3.0 hrs
 
+#Given 2 int arrays, a and b, each length 3, return a new array length 2 containing their middle elements.
 def middle_way(a, b):
   arr = [0,0]
   arr[0] = a[1]

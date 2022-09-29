@@ -4,6 +4,7 @@
 #2022-09-22
 #time spent: 3.0 hrs
 
+#Given an array of ints, return a new array length 2 containing the first and last elements from the original array. The original array will be length 1 or more.
 def make_ends(nums):
   arr = [0,0]
   arr[0] = nums[0]
