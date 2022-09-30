@@ -1,7 +1,7 @@
 """
 rEvERzE: Ziying Jian, Vivian Graeber, Raven (Ruiwen) Tang
 SoftDev
-K05 -- bitstream
+K05 -- bitstream / randomly print a devo AND corresponding ducky, given a text file
 2022-09-29
 time spent: 0.6 hrs
 """
