@@ -1,8 +1,8 @@
-# Chatting Chickens: Craig Chen, Faiza Huda, Vivian Graeber, Raven (Ruiwen) Tang
-SoftDev
-K13 -- Stuylin' & Wylin' & Profilin' / mimicking HTML file using CSS rules
-2022-10-18
-time spent: 1.0 hrs
+## Chatting Chickens: Craig Chen, Faiza Huda, Vivian Graeber, Raven (Ruiwen) Tang
+## SoftDev
+## K13 -- Stuylin' & Wylin' & Profilin' / mimicking HTML file using CSS rules
+## 2022-10-18
+## time spent: 1.0 hrs
 
 # DISCO
 * $firefox path/to/file/file_name.html will render the HTML page in Firefox
