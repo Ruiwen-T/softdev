@@ -24,7 +24,8 @@ SQLite is important because it allows us to use and manage databases, specifical
 	Ex:
 	```sqlite> insert into student_info values(123, 100, "345 Chambers St");
 	   sqlite> insert into student_info values(456, 0, "123 Chambers St");
-	   sqlite> insert into student_info values(789, 50, "321 Chambers St");```
+	   sqlite> insert into student_info values(789, 50, "321 Chambers St");
+	   ```
 4. To show the entire table, use the * operator.
     ```sqlite> select * from <table_name>;```
 	Ex:
@@ -32,7 +33,8 @@ SQLite is important because it allows us to use and manage databases, specifical
 	...should print out...
 	```123|100|345 Chambers St
 	   456|0|123 Chambers St
-    	   789|50|321 Chambers St```
+    	   789|50|321 Chambers St
+	   ```
 5. To show just one column, use that column's name.
 	```sqlite> select <col_name> from <table_name>```
 	Ex:
@@ -40,7 +42,8 @@ SQLite is important because it allows us to use and manage databases, specifical
 	...should print out...
 	```345 Chambers St
 	123 Chambers St
-	321 Chambers St```
+	321 Chambers St
+	```
 6. Exit sqlite by Ctrl + D
 ### Resources
 * (SQLite Documentation)[https://www.sqlite.org/cli.html]
