@@ -22,25 +22,28 @@ SQLite is important because it allows us to use and manage databases, specifical
 3. To populate a row of the table, insert values in the corresponding order of the columns. Again, don't forget the semicolon at the end of the line.
 	```sqlite> insert into <table_name> values(<first_value>, <second_value>, <third_value>);```
 	Ex:
-	```sqlite> insert into student_info values(123, 100, "345 Chambers St");
-	   sqlite> insert into student_info values(456, 0, "123 Chambers St");
-	   sqlite> insert into student_info values(789, 50, "321 Chambers St");
-	   ```
+	```
+	sqlite> insert into student_info values(123, 100, "345 Chambers St");
+	sqlite> insert into student_info values(456, 0, "123 Chambers St");
+	sqlite> insert into student_info values(789, 50, "321 Chambers St");
+	```
 4. To show the entire table, use the * operator.
     ```sqlite> select * from <table_name>;```
 	Ex:
 	```sqlite> select * from student_info;```
 	...should print out...
-	```123|100|345 Chambers St
-	   456|0|123 Chambers St
-    	   789|50|321 Chambers St
-	   ```
+	```
+	123|100|345 Chambers St
+	456|0|123 Chambers St
+	789|50|321 Chambers St
+	```
 5. To show just one column, use that column's name.
 	```sqlite> select <col_name> from <table_name>```
 	Ex:
 	```sqlite> select address from student_info;```
 	...should print out...
-	```345 Chambers St
+	```
+	345 Chambers St
 	123 Chambers St
 	321 Chambers St
 	```
