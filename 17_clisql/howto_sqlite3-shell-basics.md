@@ -12,11 +12,9 @@ SQLite is important because it allows us to use and manage databases, specifical
 - Draft on paper the tables and information that you want to include and manage in your database
 
 1. In Terminal, in the desired directory, create a database
-    ```$ sqlite3 <database_name>
-    ```
+    ```$ sqlite3 <database_name>```
 	Ex:
-    ```$ sqlite3 students
-    ```
+    ```$ sqlite3 students```
 2. Create a table within your database, inputting information about the datatype and name of each column. Available data types are TEXT (like a string), INTEGER, REAL, NUMERIC (default integer, but can hold floating point), and BLOB (no suggested/converted type). Don't forget the semicolon at the end of the line.
     ```sqlite> create table <table_name>(<first_col_name> <first_col_data_type>, <second_col_name> <second_col<data_type>, <...>);```
 	Ex:
@@ -26,16 +24,15 @@ SQLite is important because it allows us to use and manage databases, specifical
 	Ex:
 	```sqlite> insert into student_info values(123, 100, "345 Chambers St");
 	   sqlite> insert into student_info values(456, 0, "123 Chambers St");
-	   sqlite> insert into student_info values(789, 50, "321 Chambers St");
-	```
+	   sqlite> insert into student_info values(789, 50, "321 Chambers St");```
 4. To show the entire table, use the * operator.
     ```sqlite> select * from <table_name>;```
 	Ex:
 	```sqlite> select * from student_info;```
 	...should print out...
 	```123|100|345 Chambers St
-	456|0|123 Chambers St
-    789|50|321 Chambers St```
+	   456|0|123 Chambers St
+    	   789|50|321 Chambers St```
 5. To show just one column, use that column's name.
 	```sqlite> select <col_name> from <table_name>```
 	Ex:
