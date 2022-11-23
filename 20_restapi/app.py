@@ -15,7 +15,7 @@ import requests
 app = Flask(__name__)    #create Flask object
 
 # finds the api key in the dedicated file
-api_key = open(r"key_nasa","r").read()
+api_key = open(r"key_nasa.txt","r").read()
 api_query = f"https://api.nasa.gov/planetary/apod?api_key={api_key}"
 
 def get_data():
